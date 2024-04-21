@@ -1,0 +1,14 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\leogm\\OneDrive\\Documentos\\Cursos e Aulas\\Cursos Desenvolvimento Web\\Curso em Video\\Modulo1-HTML5_CSS3\\Exercicios\\Exerc010\\index.html"
+        }
+    ]
+}
