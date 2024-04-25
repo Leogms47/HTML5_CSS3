@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com midias</title>
+</head>
+<body>
+    <h1>Trabalhando com Imagens Dinâmicas</h1>
+    <p>Faça o seguinte teste; abra este site em dispositivos diferentes ou altere o tamanho do navegador para ver a imagem se adaptar em varios tamanhos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="assets/ImagenP.png" type="image/png">
+        <source media="(min-width: 1050px)" srcset="assets/ImagenG.png" type="image/png">
+        <img src="assets/ImagenM.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios e musicas</h1>
+    <p>Teste de reprodução de audios em HTML5</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/giveon-heartbreak-anniversary.mp3" type="audio/mpeg">
+        <source src="midias/giveon-heartbreak-anniversary.ogg" type="audio/ogg">
+        <source src="midias/giveon-heartbreak-anniversary.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compativel com o audio. <a href="midias/giveon-heartbreak-anniversary.mp3" download="audio.mp3">Clique aqui</a> para baixar o audio</p>
+    </audio>
+
+</body>
+</html>
