@@ -1,0 +1,10 @@
+.especial::after
+{
+    content: '⭅';
+    font-weight: lighter;
+}
+.epecial::before
+{
+    content: '⭆';
+    font-weight: lighter;
+}

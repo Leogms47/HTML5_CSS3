@@ -1,0 +1,15 @@
+div
+{
+    width: 200px;
+    height: 200px;
+    border: none;
+    box-shadow: 2px 2px 5px;
+    background-color: teal;
+    display: inline-block;
+    text-align: center;
+}
+
+div:hover
+{
+    background-color: slategray;
+}

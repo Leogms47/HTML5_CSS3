@@ -1,0 +1,15 @@
+div > p
+{
+    display: none;
+}
+
+div:hover > p
+{
+    display: block;
+    color: red;
+}
+
+div:hover
+{
+    color: blue;
+}

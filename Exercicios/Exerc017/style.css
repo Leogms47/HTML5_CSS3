@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        text-align: right;
+    }
+
+    p{
+        font: bold 1em 'Sugoe UI', Tohama, sans-serif;
+        text-align: left;
+        color:rgb(88, 1, 88)
+    }
+
+    h6{
+        font: bold 1em Georgia, 'Times New Roman', serif;
+        color: blue;
+    }
+}

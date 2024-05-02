@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Milker';
+    src: url('fonts/Milker.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ode-Erik';
+    src: url('fonts/Ode-Erik.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Stand Alone';
+    src: url('fonts/Stand Alone.otf') format('opentype');
+}
+
+body{    
+    background: slategrey;
+}
+.container{
+    margin: 100px;
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
+    background: #fff;
+}
+
+h1
+{
+    font-family: 'Milker';
+}
+
+h2
+{
+    font-family: 'Ode-Erik';
+}
+
+p
+{
+    font-family: 'Stand Alone';
+    font-size: 1.5em;
+    color: darkblue;
+}
