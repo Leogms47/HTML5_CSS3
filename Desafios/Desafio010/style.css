@@ -114,9 +114,12 @@ main
     align-items: center;
     text-align: justify;
     margin: auto;
+    margin-bottom: 20px;
     padding: 15px;
     width: 80%;
     border: none;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
     background: #fff;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.89)
 }
@@ -143,41 +146,85 @@ main img
     width: 100%;
 }
 
+a.external::after
+{
+    content: '\1F517';
+}
+
 #bugdroid
 {
     width: 50%;
     margin: auto;
 }
-#video-e
+
+div.video
 {
-    display: flex;
-    width: 100%;
-    margin: 0;
+    background-color: #063d1e;
+    margin: 0px -15px 30px -15px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
-    
+    position: relative;
+    padding-bottom: 55%;
 }
+div.video > iframe
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer
 {
-    display: block;
-    width: 80%;
+    width: 100%;
+    height: 40%;
     margin: auto;
-    margin-bottom: 30px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 0px 0 7px rgba(0, 0, 0, 0.808);
+    background: var(--cor4);
+}
+
+footer > p
+{
+    color: #fff;
+    margin: auto;
     padding: 10px;
-    background: white;
+    justify-content: center;
+    text-align: center;
+}
+
+footer > p > a
+{
+    text-decoration: none;
+    color: #83E1AD;
+    font-weight: bold;
+}
+
+footer > p > a:hover
+{
+
+    color: var(--cor5);
+    text-decoration: underline;
+    background: #83E1AD;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;    
 }
 
 aside
 {
-    text-align: justify;
-    display: block;
     background: var(--cor1);
     margin: 5px;
     border: none;
     border-radius: 10px;
+}
+
+aside > p
+{
+    width: 80%;
+    margin: 10px;
+    text-align: justify;
+    align-items: center;
 }
 
 aside h3
@@ -204,20 +251,21 @@ aside h3
     margin-bottom: 15px;
 }*/
 
-article
-{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: 50vh;
-    margin: auto;
-    padding-bottom: 15px;
-}
-
 .paragrafos
 {
     width: auto;
     margin-top: 20px;
     justify-content: space-between;
+}
+
+.paragrafos a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafos a:hover{
+    text-decoration: underline;
+    color: var(--cor0);
+    background-color: var(--cor4);
 }
